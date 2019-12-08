@@ -1,0 +1,44 @@
+form#register{
+    color: #333355;
+    background-color: white;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+#register fieldset{
+    border-radius: 12px;
+    margin: 0;
+}
+
+#register label{
+    color: #333355;
+    border: 3px solid #333355;
+    border-right: 0;
+}
+
+#register i{
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#register input[type="email"], #register input[type="password"], #register input[type="text"]{
+    color: #222;
+    border: 3px solid #333355;
+}
+
+#register input[type="submit"], #register input[type="submit"]:visited{
+    color: white;
+    background-color: #333355;
+}
+
+#register input[type="submit"]:hover, #register input[type="submit"]:focus{
+    color: white;
+    background-color: #333355dd;
+}
+
+#register input[type="submit"]:active{
+    color: white;
+    background-color: #333355aa;
+}
