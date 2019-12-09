@@ -1,5 +1,5 @@
 form#register{
-    color: #333355;
+    color: #333;
     background-color: white;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
@@ -11,8 +11,8 @@ form#register{
 }
 
 #register label{
-    color: #333355;
-    border: 3px solid #333355;
+    color: #333;
+    border: 3px solid #333;
     border-right: 0;
 }
 
@@ -24,21 +24,21 @@ form#register{
 }
 
 #register input[type="email"], #register input[type="password"], #register input[type="text"]{
-    color: #222;
-    border: 3px solid #333355;
+    color: #333;
+    border: 3px solid #333;
 }
 
 #register input[type="submit"], #register input[type="submit"]:visited{
     color: white;
-    background-color: #333355;
+    background-color: #00458f;
 }
 
 #register input[type="submit"]:hover, #register input[type="submit"]:focus{
     color: white;
-    background-color: #333355dd;
+    background-color: #00458fdd;
 }
 
 #register input[type="submit"]:active{
     color: white;
-    background-color: #333355aa;
+    background-color: #00458faa;
 }

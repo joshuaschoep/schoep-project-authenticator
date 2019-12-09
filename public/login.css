@@ -9,7 +9,7 @@ form#login{
 
 #login fieldset{
     margin: 0;
-    background-color: #333355;
+    background-color: #00458f;
     border-top-left-radius: var(--form-radius);
     border-bottom-left-radius: var(--form-radius);
 }
